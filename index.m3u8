@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1,ANTV
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/ANTV.m3u8
 #EXTINF:-1,Porto Canal
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/PortoCanal.m3u8
 #EXTINF:-1,PTV
