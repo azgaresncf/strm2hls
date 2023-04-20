@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1,ANTV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/ANTV.m3u8
+#EXTINF:-1,Porto Canal
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/PortoCanal.m3u8
+#EXTINF:-1,PTV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/PTV.m3u8
+#EXTINF:-1,Sardegna 1
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Sardegna1.m3u8
+#EXTINF:-1,Télénantes
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
+#EXTINF:-1,TFM (Télé Futur Médias)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TFM.m3u8
+#EXTINF:-1,TV Vendée
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVVendee.m3u8
