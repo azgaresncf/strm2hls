@@ -1,0 +1,92 @@
+name: grabbing streams
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  
+  
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+       
+      - name: config
+        run: |
+          git config --global user.email "<>"
+          git config --global user.name "Update"
+      
+      
+      - name: grab m3u files
+        run: |
+            pwd
+            cd ./core/platforms/
+            python3 dailymotion.py x71o73v > ../../streams/8_Mont-Blanc.m3u8
+            python3 dailymotion.py x89sfvo > ../../streams/ATB_Cochabamba.m3u8
+            python3 dailymotion.py x84eirw > ../../streams/ATB_La_Paz.m3u8
+            python3 dailymotion.py x84t82c > ../../streams/ATB_Santa_Cruz.m3u8
+            python3 twitch.py astratv2019 > ../../streams/Astra_TV.m3u8
+            python3 twitch.py cinematimetv > ../../streams/CinemaTime.m3u8
+            python3 twitch.py cinematimetv2 > ../../streams/CinemaTime2.m3u8
+            python3 dailymotion.py x7gy059 > ../../streams/Color_Vision.m3u8
+            python3 twitch.py dtpylias > ../../streams/DTP.m3u8
+            python3 twitch.py astratv2019 > ../../streams/Astra_TV.m3u8
+            python3 twitch.py diontvkentrikismakedonias > ../../streams/DionTvKentrikisMakedonias.m3u8
+            python3 twitch.py eurochannel > ../../streams/EuroTV.m3u8
+            python3 dailymotion.py x2j7kha > ../../streams/Euronews_Greece.m3u8
+            python3 twitch.py flashtvgr > ../../streams/FlashTV.m3u8
+            python3 twitch.py tvioniathessalonikis > ../../streams/tvioniathessalonikis.m3u8
+            python3 dailymotion.py k5VKYQn5hAE4vfry927 > ../../streams/Journal_du_golf.m3u8
+            python3 twitch.py kardamena_team > ../../streams/Kardamena_TV.m3u8
+            python3 dailymotion.py x8my9op > ../../streams/La_Tele_Tuya.m3u8
+            python3 twitch.py lepantotv > ../../streams/LePanto.m3u8
+            python3 twitch.py marontvgr > ../../streams/marontvgr.m3u8
+            python3 twitch.py ontv2023 > ../../streams/On_Tv_Greece.m3u8
+            python3 twitch.py orthodoxiaradio > ../../streams/Orthodoxia_Radio_TV.m3u8          
+            python3 dailymotion.py x8odgha > ../../streams/Oye_Tv_Panama.m3u8
+            python3 dailymotion.py x5cr6b9 > ../../streams/PTV.m3u8
+            python3 twitch.py panikostv > ../../streams/PanikosTV.m3u8
+            python3 twitch.py pronewstv > ../../streams/ProNews.m3u8
+            python3 dailymotion.py x8ra7t7 > ../../streams/Red_Uno_Cochabamba.m3u8
+            python3 dailymotion.py x8ko1ix > ../../streams/Red_Uno_La_Paz.m3u8
+            python3 dailymotion.py x893du6 > ../../streams/Sardegna1.m3u8
+            python3 dailymotion.py x81cvsk > ../../streams/Sertv.m3u8
+            python3 dailymotion.py k5Hfx6eeaTjBE5zRXcn > ../../streams/Star_Kentrikis_Eladas_Greece.m3u8
+            python3 twitch.py tvkosmosgr > ../../streams/tvkosmosgr.m3u8
+            python3 twitch.py tvrodopi > ../../streams/TVRodopi.m3u8
+            python3 twitch.py canaltvx > ../../streams/TVX.m3u
+            python3 twitch.py telecau > ../../streams/TeleCauquenes.m3u8
+            python3 dailymotion.py x8nlwwo > ../../streams/Telemetro_Panama.m3u8
+            python3 dailymotion.py x5so98l > ../../streams/Telenantes.m3u8
+            python3 twitch.py TeletonCL > ../../streams/TeletonCL.m3u8
+            python3 twitch.py topchannelkozani > ../../streams/Top_Channel_Greece.m3u8
+            python3 twitch.py xtvision > ../../streams/XTV.m3u8
+            python3 twitch.py centertv > ../../streams/centertv.m3u8
+            python3 dailymotion.py x8hvuj5 > ../../streams/elocho.m3u8
+            python3 dailymotion.py x82z4if > ../../streams/imagen_tv.m3u8
+            python3 twitch.py pandamaxlive > ../../streams/pandamaxlive.m3u8
+            python3 twitch.py sintesistv_ > ../../streams/sintesis_tv.m3u8
+            python3 twitch.py thegrefg > ../../streams/thegrefg.m3u8
+            python3 twitch.py livethess > ../../streams/thessaliatv.m3u8
+            python3 twitch.py tvctklive > ../../streams/tvctklive.m3u8
+            python3 twitch.py tvstarfm > ../../streams/tvstarfm.m3u8
+            python3 twitch.py verginachannel > ../../streams/verginatv_greece.m3u8
+            python3 twitch.py verginacy > ../../streams/verginatv_cyprus.m3u8
+            python3 dailymotion.py x7u200z > ../../streams/Viva_Nicaragua_Canal_13.m3u8
+            python3 dailymotion.py x7x4dgx > ../../streams/willaxtv.m3u8
+            python3 twitch.py iviewtvgr > ../../streams/iviewtvgr.m3u8
+            python3 twitch.py telediariotelevision > ../../streams/Telediario_Television_Argentina.m3u8
+      
+      - name: git add
+        run: |
+          git add -A
+          ls -la 
+          
+      - name: commit & push
+        run: |
+          git commit -m "streams updated"
+          git push
