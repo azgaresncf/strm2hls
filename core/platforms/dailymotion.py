@@ -6,9 +6,9 @@ import sys
 
 def grab(stream):
     try:
-        _id = line.split('/')[4]
+        _id = stream.split('/')[4]
         s = requests.Session()
-        response = s.get(f'https://www.dailymotion.com/player/metadata/video/{stream}').json()['qualities']['auto'][0]['url']
+        response = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}').json()['qualities']['auto'][0]['url']
         m3u = s.get(response).text
         print(m3u)
     except Exception as e:
@@ -38,6 +38,6 @@ def get_m3u8(streamlink:str):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python dailymotion.py <stream>")
+        print("Usage: python dailymotion.py stream")
     else:
         get_m3u8(sys.argv[1])
