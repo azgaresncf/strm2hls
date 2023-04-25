@@ -38,4 +38,5 @@ data = '{"query":" query GrayWebAppsDefaultData ($expirationSeconds: Int, $vodCo
 response = requests.post('https://graphql-api.aws.syncbak.com/graphql', headers=headers, data=data)
 
 print("#EXTM3U\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58\n#EXTVLCOPT:http-referrer=https://www.kwtx.com/")
-print(response.json()["data"]["firstLiveChannel"][0]["streamUrl"])
+print(response.json())
+#print(response.json()["data"]["firstLiveChannel"][0]["streamUrl"])
