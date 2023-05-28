@@ -11,3 +11,9 @@ https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TFM.m3u8
 #EXTINF:-1,TV Vendée
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVVendee.m3u8
+#EXTINF:-1,thessaliaTV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8
+#EXTINF:-1,sintesis_tv
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/sintesis_tv.m3u8
+#EXTINF:-1,tvcklive
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvcklive.m3u8
