@@ -1,3 +1,4 @@
+/!\ the structure of the project will evolve soon /!\
 # strm2hls
 *[as the name says: [some] streaming links to HLS (HTTP Live Streaming)]*
 
