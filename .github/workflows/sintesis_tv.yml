@@ -34,7 +34,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 twitch.py "https://www.twitch.tv/sintesis_tv" > ../../streams/sintesis_tv.m3u8
+          python3 twitch.py sintesis_tv > ../../streams/sintesis_tv.m3u8
           echo "m3u grabbed"
         
       - name: adding everything
