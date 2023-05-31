@@ -1,0 +1,30 @@
+name: Update Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Configure Git
+        run: |
+          git config user.name "Your Name"
+          git config user.email "your-email@example.com"
+
+      - name: Pull with Rebase
+        run: git pull --rebase origin main
+
+      - name: Push Changes
+        run: |
+          git push -u origin main || echo "Push failed. Retrying..."
+          while [ $? -ne 0 ]; do
+            git pull --rebase origin main
+            git push -u origin main
+          done
