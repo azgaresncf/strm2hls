@@ -17,16 +17,16 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "Your Name"
-          git config user.email "your-email@example.com"
+          git config user.name "i love git"
+          git config user.email "<>"
 
       - name: Pull with Rebase
         run: git pull --rebase origin main
 
       - name: Push Changes
         run: |
-          git push -u origin main || echo "Push failed. Retrying..."
+          git push -u origin v2 || echo "Push failed. Retrying..."
           while [ $? -ne 0 ]; do
-            git pull --rebase origin main
-            git push -u origin main
+            git pull --rebase origin v2
+            git push -u origin v2
           done
