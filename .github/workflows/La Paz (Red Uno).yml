@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Télénantes
+name: La Paz (Red Uno)
 
 # Controls when the workflow will run
 on:
@@ -33,7 +33,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 dailymotion.py "x5so98l" > ../../streams/Telenantes.m3u8
+          python3 dailymotion.py "x8ko1ix" > ../../streams/La_Paz.m3u8
           echo "m3u grabbed"
         
       - name: git add
@@ -43,5 +43,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "Télénantes updated"
+          git commit -m "La Paz (Red Uno) updated"
           git push

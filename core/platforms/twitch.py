@@ -2,7 +2,7 @@ import sys
 import requests
 import json
 
-def get_access_token(channel_name):
+def get_access_token(channel_name:str):
     """
     Retrieves the access token and signature required to access the stream.
 
@@ -45,7 +45,7 @@ def get_access_token(channel_name):
         print("An error occurred while retrieving the access token:", e)
         return None, None
 
-def get_stream_url(channel_name):
+def get_stream_url(channel_name: str):
     """
     Retrieves the URL of the stream for the given Twitch channel.
 
@@ -70,7 +70,7 @@ def get_stream_url(channel_name):
         print("An error occurred while retrieving the stream URL:", e)
         return None
 
-def remove_twitch_info_headers(response_text):
+def remove_twitch_info_headers(response_text: str):
     """
     Removes the Twitch-specific headers from the stream URL response.
 
