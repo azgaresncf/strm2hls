@@ -14,7 +14,7 @@ def get_access_token(channel_name:str):
     """
     url = "https://gql.twitch.tv/gql"
     headers = {
-        'Client-ID': 'kimne78kx3ncx6brgo4mv6wki5h1ko', #shoutout to streamlink
+        'Client-ID': 'ue6666qo983tsx6so1t0vnawi233wa', #shoutout to streamlink
         'Content-Type': 'application/json'
     }
 
@@ -38,6 +38,7 @@ def get_access_token(channel_name:str):
     try:
         response = requests.post(url, headers=headers, json=payload)
         response_data = response.json()
+        print(response_data)
         token = response_data["data"]["streamPlaybackAccessToken"]["value"]
         sig = response_data["data"]["streamPlaybackAccessToken"]["signature"]
         return token, sig
