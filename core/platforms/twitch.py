@@ -38,7 +38,6 @@ def get_access_token(channel_name:str):
     try:
         response = requests.post(url, headers=headers, json=payload)
         response_data = response.json()
-        print(response_data)
         token = response_data["data"]["streamPlaybackAccessToken"]["value"]
         sig = response_data["data"]["streamPlaybackAccessToken"]["signature"]
         return token, sig
