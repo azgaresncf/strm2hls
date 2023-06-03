@@ -15,6 +15,11 @@ Bien sûr ! Soyez simplement sûr que votre chaine ne soit pas inappropriée (NS
 
 Vous pouvez soit faire un simplement soit même créer un pull request si cela vous tente.
 
+# Remerciements
+Je tiens à remercier :
+- [pshanmu3](https://github.com/pshanmu3) pour m'avoir inspiré à faire ce répertoire
+- [Les développeurs de streamlink](https://github.com/streamlink) pour m'aider à implémenter certaines plateformes. 
+
 # Note
 Vous pouvez regarder toutes les chaînes converties avec ce lien:
 ```

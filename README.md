@@ -15,7 +15,12 @@ Of course you can! Just make sure that your channel isn't inappropriate (NSFW).
 
 You can do either a simple issue or even a pull request if you feel like it.
 
-# note
+# Acknowledgements
+I have to thank:
+- [pshanmu3](https://github.com/pshanmu3) for inspiring me to do this repo
+- [streamlink's developpers](https://github.com/streamlink) for helping me to implement some platforms. 
+
+# Note
 You can watch all of the converted channels with this link:
 ```
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/index.m3u8
