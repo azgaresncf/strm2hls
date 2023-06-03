@@ -1,32 +1,104 @@
 import sys
-import streamlink
+import requests
+import json
 
-def get_twitch_streams(channel_url):
-    streams = {}
-    plugins = streamlink.streams(channel_url)
+def get_access_token(channel_name:str):
+    """
+    Retrieves the access token and signature required to access the stream.
 
-    for plugin in plugins:
-        streams[plugin] = plugins[plugin].url
+    Args:
+        channel_name (str): The name of the Twitch channel.
 
-    return streams
+    Returns:
+        tuple or None: A tuple containing the access token and signature if successful, or None if an error occurred.
+    """
+    url = "https://gql.twitch.tv/gql"
+    headers = {
+        'Client-ID': 'ue6666qo983tsx6so1t0vnawi233wa', #shoutout to streamlink
+        'Content-Type': 'application/json'
+    }
 
-def convert_to_m3u8(streams):
-    m3u8_content = "#EXTM3U\n"
+    payload = {
+        "operationName": "PlaybackAccessToken",
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "0828119ded1c13477966434e15800ff57ddacf13ba1911c129dc2200705b0712"
+            }
+        },
+        "variables": {
+            "isLive": True,
+            "login": channel_name,
+            "isVod": False,
+            "vodID": "",
+            "playerType": "embed"
+        }
+    }
 
-    for plugin, url in streams.items():
-        m3u8_content += f"#EXTINF:-1,{plugin}\n{url}\n"
+    try:
+        response = requests.post(url, headers=headers, json=payload)
+        response_data = response.json()
+        token = response_data["data"]["streamPlaybackAccessToken"]["value"]
+        sig = response_data["data"]["streamPlaybackAccessToken"]["signature"]
+        return token, sig
+    except (requests.RequestException, KeyError, json.JSONDecodeError) as e:
+        print("An error occurred while retrieving the access token:", e)
+        return None, None
 
-    return m3u8_content
+def get_stream_url(channel_name: str):
+    """
+    Retrieves the URL of the stream for the given Twitch channel.
 
-def twitch_streams_to_m3u8(channel_url):
-    twitch_streams = get_twitch_streams(channel_url)
-    m3u8_content = convert_to_m3u8(twitch_streams)
-    return m3u8_content
+    Args:
+        channel_name (str): The name of the Twitch channel.
+
+    Returns:
+        str or None: The URL of the stream if successful, or None if an error occurred.
+    """
+    token, sig = get_access_token(channel_name)
+
+    if not token or not sig:
+        return None
+
+    url = f"https://usher.ttvnw.net/api/channel/hls/{channel_name}.m3u8?token={token}&sig={sig}"
+
+    try:
+        response = requests.get(url)
+        cleaned_response = remove_twitch_info_headers(response.text)
+        return cleaned_response
+    except requests.RequestException as e:
+        print("An error occurred while retrieving the stream URL:", e)
+        return None
+
+def remove_twitch_info_headers(response_text: str):
+    """
+    Removes the Twitch-specific headers from the stream URL response.
+
+    Args:
+        response_text (str): The response text containing the stream URL.
+
+    Returns:
+        str: The cleaned stream URL without Twitch-specific headers.
+    """
+    lines = response_text.split("\n")
+    cleaned_lines = [line for line in lines if not line.startswith("#EXT-X-TWITCH-INFO") and not line.startswith("#EXT-X-MEDIA")]
+    cleaned_response = "\n".join(cleaned_lines)
+    return cleaned_response
+
+def main():
+    """
+    The main function that is executed when the script is run.
+    """
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <channel_name>")
+        return
+
+    channel_name = sys.argv[1]
+
+    stream_url = get_stream_url(channel_name)
+
+    if stream_url:
+        print(stream_url)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python twitch_streams.py [Twitch_Channel_URL]")
-    else:
-        channel_url = sys.argv[1]
-        m3u8_content = twitch_streams_to_m3u8(channel_url)
-        print(m3u8_content)
+    main()

@@ -5,7 +5,7 @@ name: thessaliatv (Twitch)
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '*/180 * * * *'
+    - cron: '0 */10 * * *'
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,14 +27,14 @@ jobs:
         run: |
           git config --global user.email "<>"
           git config --global user.name "Update"
-          pip3 install streamlink
+          
       
       
       - name: grab twitch stream
         run: |
           pwd
           cd ./core/platforms/
-          python3 twitch.py "https://www.twitch.tv/thessaliatv" > ../../streams/thessaliatv.m3u8
+          python3 twitch.py thessaliatv > ../../streams/thessaliatv.m3u8
           echo "m3u grabbed"
         
       - name: adding everything

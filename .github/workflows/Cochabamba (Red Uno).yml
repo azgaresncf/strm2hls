@@ -1,11 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: tvctklive (Twitch)
+name: Cochabamba (Red Uno)
 
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '0 */10 * * *'
+    - cron: '0 4,16 * * *'
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -23,26 +23,25 @@ jobs:
       - uses: actions/checkout@v2
 
       # 
-      - name: get config
+      - name: config
         run: |
           git config --global user.email "<>"
           git config --global user.name "Update"
-          
       
       
-      - name: grab twitch stream
+      - name: grab m3u files
         run: |
           pwd
           cd ./core/platforms/
-          python3 twitch.py tvctklive > ../../streams/tvctklive.m3u8
+          python3 dailymotion.py "x827j2y" > ../../streams/Cochabamba.m3u8
           echo "m3u grabbed"
         
-      - name: adding everything
+      - name: git add
         run: |
           git add -A
           ls -la 
           
       - name: commit & push
         run: |
-          git commit -m "tvctklive (Twitch) updated"
+          git commit -m "Cochabamba (Red Uno) updated"
           git push
