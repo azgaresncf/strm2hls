@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: 8 Mont-Blanc
+name: RMC Story
 
 # Controls when the workflow will run
 on:
@@ -33,7 +33,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 dailymotion.py "x3wqv8b" > ../../streams/8_Mont-Blanc.m3u8
+          python3 dailymotion.py "x13p3qi" > ../../streams/RMC Story.m3u8
           echo "m3u grabbed"
         
       - name: git add
@@ -43,5 +43,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "8_Mont-Blanc updated"
+          git commit -m "RMC Story updated"
           git push
