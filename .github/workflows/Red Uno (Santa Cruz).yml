@@ -33,7 +33,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 dailymotion.py "x825whp" > ../../streams/Red_Uno_Santa_Cruz.m3u8
+          python3 dailymotion.py "x8o9b6o" > ../../streams/Red_Uno_Santa_Cruz.m3u8
           echo "m3u grabbed"
         
       - name: git add
