@@ -33,7 +33,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 dailymotion.py "k5VKYQn5hAE4vfry927" > ../../streams/Viva_Nicaragua_Canal_13.m3u8
+          python3 dailymotion.py "x7u200z" > ../../streams/Viva_Nicaragua_Canal_13.m3u8
           echo "m3u grabbed"
         
       - name: git add
