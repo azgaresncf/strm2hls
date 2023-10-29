@@ -1,4 +1,4 @@
-name: thessaliatv (Twitch)
+name: livethess (Twitch)
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 twitch.py thessaliatv > ../../streams/thessaliatv.m3u8
+          python3 twitch.py livethess > ../../streams/thessaliatv.m3u8
         
       - name: adding everything
         run: |
@@ -34,5 +34,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "thessaliatv (Twitch) updated"
+          git commit -m "livethess (Twitch) updated"
           git push
