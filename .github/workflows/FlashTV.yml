@@ -1,8 +1,8 @@
-name: La Tele Tuya
+name: FlashTV
 
 on:
   schedule:
-    - cron: '0 4,16 * * *'
+    - cron: '0 */10 * * *'
   
   workflow_dispatch:
 
@@ -16,24 +16,23 @@ jobs:
       - uses: actions/checkout@v2
 
        
-      - name: config
+      - name: get config
         run: |
           git config --global user.email "<>"
           git config --global user.name "Update"
       
-      
-      - name: grab m3u files
+      - name: grab twitch stream
         run: |
           pwd
           cd ./core/platforms/
-          python3 dailymotion.py "x8my9op" > ../../streams/La_Tele_Tuya.m3u8
+          python3 twitch.py flashtvgr > ../../streams/FlashTV.m3u8
         
-      - name: git add
+      - name: adding everything
         run: |
           git add -A
           ls -la 
           
       - name: commit & push
         run: |
-          git commit -m "La Tele Tuya updated"
+          git commit -m "Flash TV updated"
           git push
