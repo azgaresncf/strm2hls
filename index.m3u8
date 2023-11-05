@@ -40,3 +40,23 @@ https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVVendee.m3u8
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVX.m3u8
 #EXTINF:-1,Euronews_Greece
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Euronews_Greece.m3u8
+#EXTINF:-1,Dion TV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/DionTVKentrikisMakedonias.m3u8
+#EXTINF:-1,Rodopi TV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVRodopi.m3u8
+#EXTINF:-1,Tileorasi Kosmos
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8
+#EXTINF:-1,Bergina 
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/verginachannel.m3u8
+#EXTINF:-1,Lepanto
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8
+#EXTINF:-1,Flash
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8
+#EXTINF:-1,Star BE
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvstarfm.m3u8
+#EXTINF:-1,LamiaStar 
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/StarL.m3u8
+
+
+
+
