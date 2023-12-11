@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/sintesis_tv.m
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
 #EXTINF:-1,TFM
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TFM.m3u8
-#EXTINF:-1,thessaliatv
+#EXTINF:-1,thessalia tv
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8
 #EXTINF:-1,tvctklive
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvctklive.m3u8
@@ -44,15 +44,23 @@ https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Euronews_Gree
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/DionTVKentrikisMakedonias.m3u8
 #EXTINF:-1,Rodopi TV
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVRodopi.m3u8
-#EXTINF:-1,Tileorasi Kosmos
+#EXTINF:-1,Tileorasi Kosmos ΡΟΔΟΣ
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8
-#EXTINF:-1,Bergina 
+#EXTINF:-1,VERGINA TV
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/verginachannel.m3u8
-#EXTINF:-1,Lepanto
+#EXTINF:-1,Lepanto TV ΠΑΤΡΑ
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8
-#EXTINF:-1,Flash
+#EXTINF:-1,Flash TV Kozani
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8
-#EXTINF:-1,Star BE
+#EXTINF:-1,STAR Βορείου Ελλάδος
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvstarfm.m3u8
-#EXTINF:-1,LamiaStar 
+#EXTINF:-1,STAR Κεντρικής Ελλάδας
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/StarL.m3u8
+#EXTINF:-1,TOP CHANNEL ΚΟΖΑΝΗ
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Top_Channel_Greece.m3u8
+#EXTINF:-1,Pronews TV ΠΑΤΡΑ
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/ProNews.m3u8
+#EXTINF:-1,TV ΙΩΝΙΑ ΘΕΣΣΑΛΟΝΙΚΗΣ
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvioniathessalonikis.m3u8
+#EXTINF:-1,CENTER TV ΚΑΒΑΛΑ
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/centertv.m3u8
