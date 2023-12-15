@@ -1,4 +1,4 @@
-name: DTP
+name: XTV
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 twitch.py dtpylias > ../../streams/DTP.m3u8
+          python3 twitch.py xtvision > ../../streams/XTV.m3u8
         
       - name: adding everything
         run: |
@@ -34,5 +34,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "DTP updated"
+          git commit -m "XTV updated"
           git push
