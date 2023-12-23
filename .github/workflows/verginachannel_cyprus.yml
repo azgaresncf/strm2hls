@@ -1,4 +1,4 @@
-name: Vergina TV (Greece)
+name: Vergina TV (Cyprus)
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
         run: |
           pwd
           cd ./core/platforms/
-          python3 twitch.py verginachannel > ../../streams/verginatv_greece.m3u8
+          python3 twitch.py verginacy > ../../streams/verginatv_cyprus.m3u8
         
       - name: adding everything
         run: |
@@ -34,5 +34,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "verginachannel (Greece) updated"
+          git commit -m "Vergina (Cyprus) updated"
           git push
