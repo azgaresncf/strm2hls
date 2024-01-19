@@ -54,8 +54,8 @@ https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8
 #EXTINF:-1,STAR Βορείου Ελλάδος
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvstarfm.m3u8
-#EXTINF:-1,STAR Κεντρικής Ελλάδας
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/StarL.m3u8
+#EXTINF:-1,Star Kentrikis Eladas 
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Star_Kentrikis_Eladas_Greece.m3u8
 #EXTINF:-1,TOP CHANNEL ΚΟΖΑΝΗ
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Top_Channel_Greece.m3u8
 #EXTINF:-1,Pronews TV ΠΑΤΡΑ
