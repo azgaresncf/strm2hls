@@ -1,0 +1,39 @@
+name: Star Kentrikis Eladas (Greece)
+
+on:
+  schedule:
+    - cron: '0 4,16 * * *'
+  
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+       
+      - name: config
+        run: |
+          git config --global user.email "<>"
+          git config --global user.name "Update"
+      
+      
+      - name: grab m3u files
+        run: |
+          pwd
+          cd ./core/platforms/
+          python3 dailymotion.py "k5Hfx6eeaTjBE5zRXcn" > ../../streams/Star_Kentrikis_Eladas_Greece.m3u8
+        
+      - name: git add
+        run: |
+          git add -A
+          ls -la 
+          
+      - name: commit & push
+        run: |
+          git commit -m "Star Kentrikis Eladas (Greece) updated"
+          git push
