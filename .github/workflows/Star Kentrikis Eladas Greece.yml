@@ -1,4 +1,4 @@
-name: Star_Kentrikis_Eladas (Greece)
+name: Star Kentrikis Eladas (Greece)
 
 on:
   schedule:
@@ -35,5 +35,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "Star_Kentrikis_Eladas (Greece) updated"
+          git commit -m "Star Kentrikis Eladas (Greece) updated"
           git push
