@@ -1,43 +1,8 @@
-#EXTINF:-1,8 Mont-Blanc
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/8_Mont-Blanc.m3u8
-#EXTINF:-1,ATB (Cochabamba)
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/ATB_Cochabamba.m3u8
-#EXTINF:-1,ATB (La Paz)
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/ATB_La_Paz.m3u8
-#EXTINF:-1,ATB (Santa Cruz)
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/ATB_Santa_Cruz.m3u8
-#EXTINF:-1,elocho TV
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/elocho.m3u8
-#EXTINF:-1,Journal du golf
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Journal_du_golf.m3u8
-#EXTINF:-1,Porto Canal
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/PortoCanal.m3u8
-#EXTINF:-1,PTV
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/PTV.m3u8
-#EXTINF:-1,Red Uno (Cochabamba)
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Red_Uno_Cochabamba.m3u8
-#EXTINF:-1,Red Uno (La Paz)
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Red_Uno_La_Paz.m3u8
-#EXTINF:-1,Red Uno (Santa Cruz)
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Red_Uno_Santa_Cruz.m3u8
-#EXTINF:-1,RFM
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/RFM.m3u8
-#EXTINF:-1,Sardegna 1
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Sardegna1.m3u8
-#EXTINF:-1,sintesis_tv
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/sintesis_tv.m3u8
-#EXTINF:-1,Télenantes
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
-#EXTINF:-1,TFM
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TFM.m3u8
 #EXTINF:-1,thessalia tv
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8
-#EXTINF:-1,tvctklive
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvctklive.m3u8
-#EXTINF:-1,TV Vendée
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVVendee.m3u8
-#EXTINF:-1,TVX
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVX.m3u8
+
+
+
 #EXTINF:-1,Euronews_Greece
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Euronews_Greece.m3u8
 #EXTINF:-1,Dion TV
