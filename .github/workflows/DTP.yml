@@ -2,7 +2,7 @@ name: DTP
 
 on:
   schedule:
-    - cron: '0 */10 * * *'
+    - cron: '0 */4 * * *'
   
   workflow_dispatch:
 
