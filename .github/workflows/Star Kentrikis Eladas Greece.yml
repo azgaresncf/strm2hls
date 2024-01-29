@@ -2,7 +2,7 @@ name: Star Kentrikis Eladas (Greece)
 
 on:
   schedule:
-    - cron: '0 4,16 * * *'
+    - cron: '0 */1 * * *'
   
   workflow_dispatch:
 
