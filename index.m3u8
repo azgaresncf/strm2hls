@@ -4,22 +4,22 @@ https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Astra_TV.m3u8
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/thessaliatv.m3u8
 #EXTINF:-1,Euronews_Greece
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Euronews_Greece.m3u8
+#EXTINF:-1,VERGINA TV Greece
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/verginatv_greece.m3u8
+#EXTINF:-1,Star Kentrikis Eladas 
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Star_Kentrikis_Eladas_Greece.m3u8
 #EXTINF:-1,Dion TV
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/DionTvKentrikisMakedonias.m3u8
 #EXTINF:-1,Rodopi TV
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/TVRodopi.m3u8
 #EXTINF:-1,Tileorasi Kosmos ΡΟΔΟΣ
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/tvkosmosgr.m3u8
-#EXTINF:-1,VERGINA TV Greece
-https://raw.githubusercontent.com/gio299/strm2hls/main/streams/verginatv_greece.m3u8
 #EXTINF:-1,Lepanto TV ΠΑΤΡΑ
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/LePanto.m3u8
 #EXTINF:-1,Flash TV ΚΟΖΑΝΗ
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/FlashTV.m3u8
 #EXTINF:-1,STAR Βορείου Ελλάδος
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/tvstarfm.m3u8
-#EXTINF:-1,Star Kentrikis Eladas 
-https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Star_Kentrikis_Eladas_Greece.m3u8
 #EXTINF:-1,TOP CHANNEL ΚΟΖΑΝΗ
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Top_Channel_Greece.m3u8
 #EXTINF:-1,Pronews TV ΠΑΤΡΑ
@@ -38,11 +38,11 @@ https://raw.githubusercontent.com/gio299/strm2hls/main/streams/verginatv_cyprus.
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/DTP.m3u8
 #EXTINF:-1,EURO TV Greece
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/EuroTV.m3u8
-#EXTINF:-1,Kardamena_TV Greece
-https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Kardamena_TV.m3u8
 #EXTINF:-1,XTV Greece
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/XTV.m3u8
 #EXTINF:-1,Orthodoxia Radio TV
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Orthodoxia_Radio_TV.m3u8
 #EXTINF:-1,MARON TV Greece
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/marontvgr.m3u8
+#EXTINF:-1,Kardamena_TV Greece
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Kardamena_TV.m3u8
