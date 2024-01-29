@@ -1,4 +1,4 @@
-name: CinemaTime2
+name: CinemaTime2 (Twitch)
 
 on:
   schedule:
