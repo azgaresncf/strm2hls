@@ -1,15 +1,17 @@
-#EXTINF:-1,thessalia tv
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8
+#EXTINF:-1,Astra TV
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Astra_TV.m3u8
+#EXTINF:-1,Thessalia TV
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/thessaliatv.m3u8
 #EXTINF:-1,Euronews_Greece
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Euronews_Greece.m3u8
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Euronews_Greece.m3u8
 #EXTINF:-1,Dion TV
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/DionTVKentrikisMakedonias.m3u8
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/DionTvKentrikisMakedonias.m3u8
 #EXTINF:-1,Rodopi TV
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVRodopi.m3u8
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/TVRodopi.m3u8
 #EXTINF:-1,Tileorasi Kosmos ΡΟΔΟΣ
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/tvkosmosgr.m3u8
 #EXTINF:-1,VERGINA TV
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/verginachannel.m3u8
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/verginatv_greece.m3u8
 #EXTINF:-1,Lepanto TV ΠΑΤΡΑ
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8
 #EXTINF:-1,Flash TV Kozani
