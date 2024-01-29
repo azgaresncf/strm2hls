@@ -1,4 +1,4 @@
-name: tvstarfm
+name: tvstarfm (Twitch)
 
 on:
   schedule:
