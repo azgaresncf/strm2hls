@@ -42,5 +42,7 @@ https://raw.githubusercontent.com/gio299/strm2hls/main/streams/EuroTV.m3u8
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Kardamena_TV.m3u8
 #EXTINF:-1,XTV Greece
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/XTV.m3u8
+#EXTINF:-1,Orthodoxia Radio TV
+https://raw.githubusercontent.com/gio299/strm2hls/main/streams/Orthodoxia_Radio_TV.m3u8
 #EXTINF:-1,MARON TV Greece
 https://raw.githubusercontent.com/gio299/strm2hls/main/streams/marontvgr.m3u8
