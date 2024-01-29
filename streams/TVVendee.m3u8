@@ -1,6 +1,0 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=288000
-https://streamer01.myvideoplace.tv/streamer02/hls/VDE_EVEN_PAD_130923_low/index.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1152000
-https://streamer01.myvideoplace.tv/streamer02/hls/VDE_EVEN_PAD_130923_medium/index.m3u8
