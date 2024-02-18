@@ -1,0 +1,38 @@
+name: On Tv Greece
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+       
+      - name: get config
+        run: |
+          git config --global user.email "<>"
+          git config --global user.name "Update"
+      
+      - name: grab twitch stream
+        run: |
+          pwd
+          cd ./core/platforms/
+          python3 twitch.py ontv2023 > ../../streams/On_Tv_Greece.m3u8
+        
+      - name: adding everything
+        run: |
+          git add -A
+          ls -la 
+          
+      - name: commit & push
+        run: |
+          git commit -m "On Tv Greece updated"
+          git push
