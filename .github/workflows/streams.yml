@@ -80,7 +80,8 @@ jobs:
             python3 dailymotion.py x7x4dgx > ../../streams/willaxtv.m3u8
             python3 twitch.py iviewtvgr > ../../streams/iviewtvgr.m3u8
             python3 twitch.py telediariotelevision > ../../streams/Telediario_Television_Argentina.m3u8
-      
+            python3 twitch.py elnuevevivo > ../../streams/elnueve_Argentina.m3u8
+            python3 twitch.py extacy_tv > ../../streams/extra_tv_cyprus.m3u8
       - name: git add
         run: |
           git add -A
