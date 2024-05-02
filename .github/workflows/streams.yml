@@ -30,8 +30,7 @@ jobs:
             python3 dailymotion.py x84eirw > ../../streams/ATB_La_Paz.m3u8
             python3 dailymotion.py x84t82c > ../../streams/ATB_Santa_Cruz.m3u8
             python3 twitch.py astratv2019 > ../../streams/Astra_TV.m3u8
-            python3 twitch.py cinematimetv > ../../streams/CinemaTime.m3u8
-            python3 twitch.py cinematimetv2 > ../../streams/CinemaTime2.m3u8
+            python3 twitch.py cinematimetv1 > ../../streams/CinemaTime.m3u8
             python3 dailymotion.py x7gy059 > ../../streams/Color_Vision.m3u8
             python3 twitch.py dtpylias > ../../streams/DTP.m3u8
             python3 twitch.py astratv2019 > ../../streams/Astra_TV.m3u8
