@@ -16,8 +16,6 @@ https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/DTP.m3u8
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/DionTvKentrikisMakedonias.m3u8
 #EXTINF:-1, Euro TV (Twitch)
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/EuroTV.m3u8
-#EXTINF:-1, Euronews (Greece)
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Euronews_Greece.m3u8
 #EXTINF:-1, FlashTV
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8
 #EXTINF:-1, Journal du golf
@@ -54,8 +52,6 @@ https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Red_Uno_Santa
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Sardegna1.m3u8
 #EXTINF:-1, Sertv
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Sertv.m3u8
-#EXTINF:-1, Star Kentrikis Eladas Greece
-https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Star_Kentrikis_Eladas_Greece.m3u8
 #EXTINF:-1, TFM
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TFM.m3u8
 #EXTINF:-1, TVRodopi
