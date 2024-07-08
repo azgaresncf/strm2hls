@@ -51,13 +51,14 @@ jobs:
             python3 twitch.py panikostv > ../../streams/PanikosTV.m3u8
             python3 twitch.py pronewstv > ../../streams/ProNews.m3u8
             python3 dailymotion.py x8ra7t7 > ../../streams/Red_Uno_Cochabamba.m3u8
-            python3 dailymotion.py x8ko1ix > ../../streams/Red_Uno_La_Paz.m3u8
+            python3 dailymotion.py x8vzlqi > ../../streams/Red_Uno_La_Paz.m3u8
+            python3 dailymotion.py x8vufvw > ../../streams/Red_Uno_Santa_Cruz.m3u8
             python3 dailymotion.py x893du6 > ../../streams/Sardegna1.m3u8
             python3 dailymotion.py x81cvsk > ../../streams/Sertv.m3u8
             python3 dailymotion.py k5Hfx6eeaTjBE5zRXcn > ../../streams/Star_Kentrikis_Eladas_Greece.m3u8
             python3 twitch.py tvkosmosgr > ../../streams/tvkosmosgr.m3u8
             python3 twitch.py tvrodopi > ../../streams/TVRodopi.m3u8
-            python3 twitch.py canaltvx > ../../streams/TVX.m3u
+            python3 twitch.py canaltvxstreaming > ../../streams/TVX.m3u
             python3 twitch.py telecau > ../../streams/TeleCauquenes.m3u8
             python3 dailymotion.py x8nlwwo > ../../streams/Telemetro_Panama.m3u8
             python3 dailymotion.py x5so98l > ../../streams/Telenantes.m3u8
@@ -65,7 +66,7 @@ jobs:
             python3 twitch.py topchannelkozani > ../../streams/Top_Channel_Greece.m3u8
             python3 twitch.py xtvision > ../../streams/XTV.m3u8
             python3 twitch.py centertv > ../../streams/centertv.m3u8
-            python3 dailymotion.py x8hvuj5 > ../../streams/elocho.m3u8
+            python3 dailymotion.py x8z8w7c > ../../streams/elocho.m3u8
             python3 dailymotion.py x82z4if > ../../streams/imagen_tv.m3u8
             python3 twitch.py pandamaxlive > ../../streams/pandamaxlive.m3u8
             python3 twitch.py sintesistv_ > ../../streams/sintesis_tv.m3u8
@@ -79,8 +80,9 @@ jobs:
             python3 dailymotion.py x7x4dgx > ../../streams/willaxtv.m3u8
             python3 twitch.py iviewtvgr > ../../streams/iviewtvgr.m3u8
             python3 twitch.py telediariotelevision > ../../streams/Telediario_Television_Argentina.m3u8
-            python3 twitch.py elnuevevivo > ../../streams/elnueve_Argentina.m3u8
+            python3 twitch.py elnueve_ok > ../../streams/elnueve_Argentina.m3u8
             python3 twitch.py extacy_tv > ../../streams/extra_tv_cyprus.m3u8
+            
       - name: git add
         run: |
           git add -A
