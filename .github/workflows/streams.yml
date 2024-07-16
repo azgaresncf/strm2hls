@@ -52,7 +52,7 @@ jobs:
             python3 twitch.py pronewstv > ../../streams/ProNews.m3u8
             python3 dailymotion.py x8ra7t7 > ../../streams/Red_Uno_Cochabamba.m3u8
             python3 dailymotion.py x8vzlqi > ../../streams/Red_Uno_La_Paz.m3u8
-            python3 dailymotion.py x8vufvw > ../../streams/Red_Uno_Santa_Cruz.m3u8
+            python3 dailymotion.py x91tbcm > ../../streams/Red_Uno_Santa_Cruz.m3u8
             python3 dailymotion.py x893du6 > ../../streams/Sardegna1.m3u8
             python3 dailymotion.py x81cvsk > ../../streams/Sertv.m3u8
             python3 dailymotion.py k5Hfx6eeaTjBE5zRXcn > ../../streams/Star_Kentrikis_Eladas_Greece.m3u8
