@@ -25,10 +25,10 @@ jobs:
         run: |
             pwd
             cd ./core/platforms/
-            python3 dailymotion.py x71o73v > ../../streams/8_Mont-Blanc.m3u8
+            python3 dailymotion.py x8ra7t7 > ../../streams/8_Mont-Blanc.m3u8
             python3 dailymotion.py x89sfvo > ../../streams/ATB_Cochabamba.m3u8
-            python3 dailymotion.py x84eirw > ../../streams/ATB_La_Paz.m3u8
-            python3 dailymotion.py x84t82c > ../../streams/ATB_Santa_Cruz.m3u8
+            python3 dailymotion.py x8vzlqi > ../../streams/ATB_La_Paz.m3u8
+            python3 dailymotion.py x91tbcm > ../../streams/ATB_Santa_Cruz.m3u8
             python3 twitch.py astratv2019 > ../../streams/Astra_TV.m3u8
             python3 twitch.py cinematimetv1 > ../../streams/CinemaTime.m3u8
             python3 dailymotion.py x7gy059 > ../../streams/Color_Vision.m3u8
@@ -82,6 +82,7 @@ jobs:
             python3 twitch.py telediariotelevision > ../../streams/Telediario_Television_Argentina.m3u8
             python3 twitch.py elnueve_ok > ../../streams/elnueve_Argentina.m3u8
             python3 twitch.py extacy_tv > ../../streams/extra_tv_cyprus.m3u8
+            python3 dailymotion.py x80ac48 > ../../streams/Telesistema_República_Dominicana.m3u8
             
       - name: git add
         run: |
