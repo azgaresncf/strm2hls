@@ -1,1 +1,6 @@
-No streams available for this video.
+#EXTM3U
+#EXT-X-STREAM-INF:RESOLUTION=512x288,FRAME-RATE=29.970030,BANDWIDTH=782336,CODECS="avc1.420015,mp4a.40.5",NAME="380"
+https://live-c.cf.dmcdn.net/sec2(dANSGFyEA_VhRtW-11x-a1n_78Mf_uKe3ZgWfaW2V4P58RPB_R4_J_jF93_cnh_BjLKn7vQJ3Tx6W8L6lmrZSQzkfWLFtRkEnp4_UXAqfLiZn-pU0VY9ZflVj-o_0NLU)/dm/3/x91tbcm/d/live-380.m3u8#cell=lcfc
+#EXT-X-STREAM-INF:RESOLUTION=320x180,FRAME-RATE=29.970030,BANDWIDTH=475136,CODECS="avc1.42000d,mp4a.40.5",NAME="240"
+https://live-c.cf.dmcdn.net/sec2(dANSGFyEA_VhRtW-11x-a1n_78Mf_uKe3ZgWfaW2V4P58RPB_R4_J_jF93_cnh_BjLKn7vQJ3Tx6W8L6lmrZSQzkfWLFtRkEnp4_UXAqfLiZn-pU0VY9ZflVj-o_0NLU)/dm/3/x91tbcm/d/live-240.m3u8#cell=lcfc
+
