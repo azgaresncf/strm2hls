@@ -34,7 +34,7 @@ jobs:
             python3 dailymotion.py x7gy059 > ../../streams/Color_Vision.m3u8
             python3 twitch.py dtpylias > ../../streams/DTP.m3u8
             python3 twitch.py astratv2019 > ../../streams/Astra_TV.m3u8
-            python3 twitch.py diontvkentrikismakedonias > ../../streams/DionTvKentrikisMakedonias.m3u8
+            python3 twitch.py diontvkmakedonias > ../../streams/DionTvKentrikisMakedonias.m3u8
             python3 twitch.py eurotvgr > ../../streams/EuroTV.m3u8
             python3 dailymotion.py x2j7kha > ../../streams/Euronews_Greece.m3u8
             python3 twitch.py flashtvgr > ../../streams/FlashTV.m3u8
