@@ -39,7 +39,6 @@ jobs:
             python3 dailymotion.py x893du6 > ../../streams/Sardegna1.m3u8
             python3 dailymotion.py x81cvsk > ../../streams/Sertv.m3u8
             python3 twitch.py canaltvxstreaming > ../../streams/TVX.m3u
-            python3 twitch.py telecau > ../../streams/TeleCauquenes.m3u8
             python3 dailymotion.py x8nlwwo > ../../streams/Telemetro_Panama.m3u8
             python3 dailymotion.py x5so98l > ../../streams/Telenantes.m3u8
             python3 twitch.py TeletonCL > ../../streams/TeletonCL.m3u8
@@ -59,7 +58,15 @@ jobs:
             python3 dailymotion.py x80ac48 > ../../streams/Telesistema_República_Dominicana.m3u8
             python3 twitch.py canal8salto > ../../streams/Canal_8_Salto_Uruguay.m3u8
             python3 twitch.py CanalTVR > ../../streams/TVR_Chile.m3u8
-            
+            python3 twitch.py dgo_latam > ../../streams/DGO_Latam.m3u8
+            python3 twitch.py ALF_Japan > ../../streams/ALF_Japan.m3u8
+            python3 twitch.py alf_espanol > ../../streams/Alf_Espanol.m3u8
+            python3 twitch.py alf > ../../streams/Alf.m3u8
+            python3 twitch.py luzu_tv > ../../streams/LUZU_TV.m3u8
+            python3 twitch.py telefesantafeoficial > ../../streams/Telefe_Santa_Fe_Streams.m3u8
+            python3 twitch.py mundogeekbo > ../../streams/MundoGeekBo.m3u8
+            python3 twitch.py telefuturoparaguay > ../../streams/telefuturoparaguay.m3u8
+            python3 dailymotion.py x7vh8g3 > ../../streams/Canal_Trece.m3u8
       - name: git add
         run: |
           git add -A
