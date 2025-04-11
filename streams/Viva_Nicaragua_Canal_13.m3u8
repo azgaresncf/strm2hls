@@ -1,1 +1,4 @@
-No streams available for this video.
+#EXTM3U
+#EXT-X-STREAM-INF:RESOLUTION=320x180,FRAME-RATE=29.970030,BANDWIDTH=475136,CODECS="avc1.42000d,mp4a.40.5",NAME="240"
+https://live-b.cf.dmcdn.net/sec2(r7Wx7WziLaZrqAdsi66-Rrubu9x250BzO4H6buVoOgzbFwWpzYD3nDYXD1zdwuZ3MAKRCiyACrr80N9FSPOnjZSq914_ANgSO5DoCCy8GN4DYmb7fAGGZ9VPtVsTA2Sr)/dm/3/x7u200z/s/live-240.m3u8#cell=lcfb
+
